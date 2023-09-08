@@ -1,5 +1,5 @@
 {% set name = "ood-metrics" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ood_metrics-{{ version }}.tar.gz
-  sha256: efa8b8e33f95cd05931a148572b7b39c8089c4208edc4db8785cc88269e91431
+  sha256: 5ca0ac4dbb9e2b5dfbc7022000f581eabc46466e0722a487caa221628dca6f5b
 
 build:
   noarch: python
